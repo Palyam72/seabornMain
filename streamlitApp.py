@@ -109,7 +109,7 @@ if file is not None:
         # Main functionality
         if selectedPlot == "relplot":
             # Corrected variable name
-            relplot = Relplot(df, st.session_state.get("relplot", []))  # Ensure session_state key exists
+            relplot = Distplot(df, st.session_state.get("relplot", []))  # Ensure session_state key exists
             relplot.display()
         elif selectedPlot == "scatterplot":
             scatterplot = ScatterPlot(df, st.session_state["scatterplot"])
