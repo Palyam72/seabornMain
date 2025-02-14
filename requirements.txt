@@ -6,3 +6,4 @@ numpy
 streamlit
 streamlit-option-menu
 streamlit-extras
+chardet
