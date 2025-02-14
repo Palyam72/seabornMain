@@ -1,0 +1,8 @@
+seaborn
+matplotlib
+reportlab
+pandas
+numpy
+streamlit
+streamlit-option-menu
+streamlit-extras
